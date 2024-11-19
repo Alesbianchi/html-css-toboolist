@@ -46,26 +46,38 @@
     line-height: 30px;
 }
 
-#freccia{
+.croce{
+    font-size: large;
+    padding-top: 1%;
+}
+
+.croce::before{
+    content: '\2716';
+    font-size: medium;
+    margin-right: 1%;
+    text-align: center;
+}
+
+.freccia{
     font-size: 30px;
     font-weight:bolder;
     padding-bottom: 1%;
 }
-#freccia::before{
+.freccia::before{
     content: '\25BC';
     font-size: medium;
     margin-right: 1%;
     text-align: center;
 }
 
-#spunta::before{
+.spunta::before{
     content: '\2713';
     color: green;
     font-size: medium;
     margin-right: 1%;
     text-align: center;
 }
-#spunta{
+.spunta{
     font-size: large;
     padding-top: 1%;
 }
