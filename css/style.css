@@ -4,6 +4,12 @@
     border-bottom: solid 1px #fff;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #logo{
     width: 100px;
     line-height: 100%;
@@ -23,19 +29,21 @@
     margin: 20px auto;
     border: solid 1px #fff;
     text-align: left;
+    background-color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #button{
     margin-left: 5%;
     padding-bottom: 3%;
+    padding-top: 2%;
 }
-
 
 /*prima sezione del contenuto*/
 .title{
     margin-left: 5%;
     padding-bottom: 5%;
+    line-height: 30px;
 }
 
 #freccia{
@@ -63,13 +71,73 @@
 }
 
 .counter{
-    width: 100%;
-    height: 100%;
+    width: 70px;
+    height: 30px;
     background-color: aquamarine;
     text-align: center;
     vertical-align: middle;
-    border-radius: 20%;
+    border-radius: 40%;
     font-size: small;
+    display: inline-block;
+    color: #fff;
 }
 
+#goals{
+    width: 70px;
+    height: 30px;
+    background-color: purple;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40%;
+    font-size: small;
+    display: inline-block;
+    color: #fff;
+}
 
+#recruiting{
+    width: 70px;
+    height: 30px;
+    background-color: green;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40%;
+    font-size: small;
+    display: inline-block;
+    color: #fff;
+}
+
+#mobile{
+    width: 70px;
+    height: 30px;
+    background-color: orange;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40%;
+    font-size: small;
+    display: inline-block;
+    color: #fff;
+}
+
+#website{
+    width: 70px;
+    height: 30px;
+    background-color: pink;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40%;
+    font-size: small;
+    display: inline-block;
+    color: #fff;
+}
+
+#sales{
+    width: 70px;
+    height: 30px;
+    background-color: lightgreen;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40%;
+    font-size: small;
+    display: inline-block;
+    color: #fff;
+}
