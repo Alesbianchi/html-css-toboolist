@@ -37,6 +37,33 @@
     margin-left: 5%;
     padding-bottom: 3%;
     padding-top: 2%;
+    line-height: 30px;
+}
+#task{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(9, 187, 247);
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10%;
+    font-size: small;
+    display: inline-block;
+    color: #fff;
+    
+}
+
+#section{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10%;
+    font-size: small;
+    display: inline-block;
+    color: lightgray;
+    margin-right: 2%;
+    border: solid 1px lightgray;
 }
 
 /*prima sezione del contenuto*/
@@ -103,7 +130,7 @@
 .counter{
     width: 70px;
     height: 30px;
-    background-color: aquamarine;
+    background-color: rgb(9, 187, 247);
     text-align: center;
     vertical-align: middle;
     border-radius: 40%;
