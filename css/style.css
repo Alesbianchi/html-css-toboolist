@@ -56,6 +56,15 @@
     font-size: medium;
     margin-right: 1%;
     text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: solid 1px red;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    display: inline-block;
+    color: red;
 }
 
 .freccia{
@@ -73,9 +82,18 @@
 .spunta::before{
     content: '\2713';
     color: green;
-    font-size: medium;
+    font-size: small;
     margin-right: 1%;
     text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: solid 1px green;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    display: inline-block;
+    color: green;
 }
 .spunta{
     font-size: large;
